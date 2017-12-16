@@ -1,0 +1,23 @@
+<!--For LatLong : "37.786261,-122.399533" to create a map and drop a pin in that location. -->
+<!doctype html>
+<html>
+<head>
+    <title>Google Map API</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <input type="button" value="Drop Pin" class="btn btn-warning" onClick="dropPin()">
+    <input id="start" readonly value="Academy of Art University">
+    <input id="end">
+    <br><br>
+    <div id="map">
+        Map will be here.
+    </div>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIfR9XlTExTghXBYblokMLKzTc9ES9_pI&callback=initMap" type="text/javascript"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!--Write Bootstrap HTML code to create 3 pills. Inside the body of each pill, place a bootstrap list with atleast 3 list items. The list items should have an icon, text and a bootstrap badge that is red in color.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/f4cc6ac2ae.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">PILL1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">PILL2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">PILL3</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <ul class="list-group">
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-ship"></span>Ship
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-car"></span>Car
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-plane"></span>Plane
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <ul class="list-group">
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-twitter"></span>Twitter
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-facebook"></span>Facebook
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-google"></span>Google
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <ul class="list-group">
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-tree"></span>Tree
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-star"></span>Star
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <span class="fa fa-snowflake-o"></span>Snowflake
+                        <span class="badge badge-danger">Danger</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>
